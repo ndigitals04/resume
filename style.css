@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+
+h1 {
+    font-size: 2em;
+    letter-spacing: .6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    margin-top: .5em;
+}
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(1,1,15)0%,rgb(1,1,15)50%, #fff 50%, #fff 100%);
+}
+
+
+
+
+header {
+    text-align: center;
+    background-color: rgb(1, 1, 15);
+    width: 100%;
+    color: #fff;
+    padding-bottom: 4em;
+}
+
+section {
+    margin: auto 0 4em 2em;
+}
+
+i {
+    margin-right: .5em;
+}
+
+a{
+    font-size: 3em;
+}
+p{
+    margin: .5em auto;
+}
+.main-content p {
+    margin: .5em auto;
+    padding-bottom: 2em;
+    font-size: 1em;
+}
+
+p.title{
+    font-size: 1em;
+}
+li a{
+    font-size: inherit;
+}
+li{
+    font-size: 1em;
+    line-height: 2em;
+}
+hr {
+    border: none;
+    background-color: #fff;
+    height: 2px;
+    margin: 0 5em;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+#mainLeft{
+    color: #fff;
+}
+
+article#mainRight h2, article#mainRight p, article#mainRight h3, article#mainRight li{
+    color: rgb(1, 1, 15);
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+article{
+    width: 50%;
+}
+
+.peter-picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-image: url(./Peter.jpeg);
+    background-size: cover;
+    margin: 20px auto;
+    border: 3px solid rgb(1, 1, 15);
+}
+
+p.copyright{
+    font-size: .5em;
+    margin-left: 5px;
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    color: #fff;
+}
+
+
+.contact a{
+    font-size: 1em;
+}
+@media screen and (min-width:1024px) {
+    h1 {
+        font-size: 3em;
+    }
+     
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+    p.title{
+        font-size: 2em;
+    }
+
+    
+    .main-content p, .main-content li{
+        font-size: 1em;
+    }
+
+    .main-content{
+        width: 70%;
+        margin: 0 auto;
+    }   
+
+    .contact a{
+        font-size: 2em;
+    }
+
+    .peter-picture{
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        border-width: 5px ;
+
+    }
+
+    hr{
+        width: 400px;
+        margin: 10px auto;
+    }
+
+    article{
+        padding: 0 30px 0 20px;
+        padding-bottom: 15px;
+    }
+}
